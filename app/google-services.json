@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "223420970420",
+    "project_id": "telepropinas",
+    "storage_bucket": "telepropinas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:223420970420:android:22c34f9d4f7d9ccfa72ee1",
+        "android_client_info": {
+          "package_name": "com.example.telepropinas"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDfLThWalGu7cbKR5qcox3NXiYQrfnc0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

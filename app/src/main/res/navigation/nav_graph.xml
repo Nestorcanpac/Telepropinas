@@ -24,5 +24,13 @@
         <action
             android:id="@+id/action_SecondFragment_to_FirstFragment"
             app:destination="@id/FirstFragment" />
+        <action
+            android:id="@+id/action_SecondFragment_to_mapaClas"
+            app:destination="@id/mapaClas" />
     </fragment>
+    <fragment
+        android:id="@+id/mapaClas"
+        android:name="com.example.telepropinas.MapaClas"
+        android:label="Mapa"
+        tools:layout="@layout/mapa_layout" />
 </navigation>

@@ -9,6 +9,8 @@ import android.widget.Button;
 
 import androidx.annotation.NonNull;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.NavController;
+import androidx.navigation.Navigation;
 import androidx.navigation.fragment.NavHostFragment;
 
 import com.example.telepropinas.databinding.FragmentSecondBinding;
@@ -43,7 +45,17 @@ public class SecondFragment extends Fragment {
         binding.FormularioBoton.setOnClickListener(v -> {
           binding.IntroducePropiTXT.setText(binding.IntroduceDireccion.getText());
       });
+
+        boton2.setOnClickListener(v -> {
+            NavController navController= Navigation.findNavController(view);
+            navController.navigate(R.id.action_SecondFragment_to_mapaClas);
+        });
+
+
+
     }
+
+
 
 
     @Override
